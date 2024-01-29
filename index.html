@@ -91,9 +91,129 @@
         </div>
 
         <!-- shape part -->
-        <div class="absolute left-0 right-0 w-[102%]">
+        <div class="absolute left-0 right-0 w-[102%] top-[98%] md:-right-2 z-[1000]">
             <img src="./images/hero-shape.svg" class="w-full object-fill" alt="">
         </div>
     </section>
+
+    <section class="mt-[100px] md:mt-[190px] relative overflow-hidden">
+        <!-- background images -->
+        <img
+          src="./images/feature-section1-dottedrows.png"
+          alt="dots"
+          loading="lazy"
+          width="233"
+          height="167"
+          class="absolute -z-[100] -top-[8rem] left-[10rem] hidden md:inline-block"
+        />
+        <img
+          src="./images/feature-section1-dottedrows.png"
+          alt="dots"
+          loading="lazy"
+          width="233"
+          height="167"
+          class="absolute -z-[100] top-[3rem] right-0 rotate-180 hidden md:inline-block"
+        />
+        <!-- Section Wrapper -->
+        <div
+          class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative overflow-hidden pt-4"
+        >
+          <!-- Section Heading - desktop -->
+          <h2
+            class="hidden md:block font-mullish text-center text-2xl leading-[1.2] font-extrabold"
+          >
+            Accept Payments with Razorpay Payment Suite
+          </h2>
+          <!-- Section Heading - mobile -->
+          <h2
+            class="inline-block text-center md:hidden font-mullish text-[2.5rem] leading-[1.2] font-extrabold mx-auto"
+          >
+            Explore Razorpay Payment Suite
+          </h2>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6 md:mb-20"></div>
+          <!-- Main Feature Box -->
+          <div
+            class="w-full min-h-[520px] bg-white flex md:border border-lightGray rounded-md relative p-4 md:p-10 py-12"
+          >
+            <!-- icon for mobile screen -->
+            <img
+              src="./images/payment-gateway.svg"
+              class="bg-lightBlue absolute right-2 top-12 w-12 h-12 rounded-full z-10 featureCardIcon transition-all duration-200 drop-shadow-xl md:hidden"
+            />
+            <!-- triangle for mobile screen -->
+            <div
+              class="absolute border-t-[6rem] border-l-[6rem] border-t-transparent border-l-white z-20 top-6 right-0 md:hidden"
+            ></div>
+            <div class="flex flex-col justify-between items-start w-full">
+              <h3
+                class="font-mullish text-xl md:leading-10 md:text-[28px] font-bold md:max-w-[500px] max-w-[190px]"
+              >
+                Supercharge your business with the all‑powerful
+                <span class="text-lightBlue">Payment Gateway</span>
+              </h3>
+              <!-- Features list -->
+              <ul class="space-y-2 my-6 md:my-0">
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span>100+ Payment Methods</span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span> Industry Leading Success Rate </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span> Superior Checkout Experience </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span> Easy to Integrate </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span> Instant Settlements from day 1 </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i>
+                  <span> In-depth Reporting and Insights </span>
+                </li>
+              </ul>
+              <div
+                class="w-full md:w-fit flex flex-col-reverse md:flex-row md:items-center md:space-x-4 gap-y-4 md:space-y-0"
+              >
+                <button
+                  class="bg-lightBlue w-full md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200"
+                >
+                  Sign Up Now
+                  <svg
+                    viewBox="0 0 24 24"
+                    focusable="false"
+                    class="w-[14px] h-[14px] ml-3"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    ></path>
+                  </svg>
+                </button>
+                <div class="flex items-center cursor-pointer group">
+                  <a
+                    href="#"
+                    class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
+                    >Know More</a
+                  >
+                  <i
+                    data-feather="chevron-right"
+                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./images/payment-suite.png"
+              alt="payment suite"
+              class="hidden md:block md:max-w-[400px] lg:max-w-[600px] absolute right-0 lg:top-0 bottom-0"
+            />
+          </div>
 </body>
 </html>
